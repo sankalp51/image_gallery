@@ -11,7 +11,7 @@ const Header = () => {
 
     const handleSearch = () => {
         setSearchTrigger(prevState => !prevState);
-        setError(false);
+        setError("");
     }
     return (
         <header className="flex justify-center items-center p-4">
